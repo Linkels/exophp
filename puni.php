@@ -41,11 +41,11 @@ echo "$x Je suis un pioupiou";
 <br><br>
 Boucle de 30 en liste chiffré<br><br>
 <?php
-$nombre_de_lignes = 1;
+$x = 1;
 
-while ($nombre_de_lignes <= 30)
+while ($x <= 30)
 {
-    echo 'Je suis une pérruche ' . $nombre_de_lignes . '<br />';
-    $nombre_de_lignes++;
+    echo 'Je suis une pérruche ' . $x . '<br />';
+    $x++;
 }
 ?>
