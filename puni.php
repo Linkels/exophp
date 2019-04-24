@@ -27,6 +27,18 @@ PGCD de 10 et 100 <br><br>
       }
       echo pgcd( 10,100 ); ?>
 <br><br>
+Phrase if et else entre 1 et 100
+<br><br>
+<?php $x = rand(1, 100);
+
+if ($x <50){
+echo "$x Je vais faire du bon visuel";
+}
+else{
+echo "$x Je suis un pioupiou";
+}
+?>
+<br><br>
 Boucle de 30 en liste chiffré<br><br>
 <?php
 $nombre_de_lignes = 1;
